@@ -73,3 +73,15 @@ bis die Kompilation abgeschlossen ist, dann kann man sich mit den Benutzerdaten 
 
 Wählt man [diese URL](http://localhost:3333/server/http:%2F%2Flocalhost%2Fcgi-bin%2Fautotool.cgi/aufgabe/Convert_To_NFA-Direct/konfiguration/%28%20Convert%0A%20%20%20%20%20%20%7B%20name%20=%20Nothing%0A%20%20%20%20%20%20,%20input%20=%20Exp%20%20%20%20a%20%28a%20+%20b%29%5E%2A%20b%20%0A%20%20%20%20%20%20%7D%0A,%20%5B%20Sane%20,%20Min_Size%20%20%20%204%0A%20%20,%20Max_Size%20%20%20%206%0A%20%20,%20Alphabet%20%20%20%20%28mkSet%20%20%20%20%22ab%22%29%20%5D%0A%29/id/40645#eingeben),
 wird beim Einsenden einer Lösung, ein Automaten-Bild angezeigt.
+
+Hinweis
+-------
+
+Nach dem Verwenden von `vagrant up` wird eine virtuelle Maschine erzeugt.
+Mit `vagrant ssh` loggt man sich per ssh auf der virtuellen Maschine ein.
+Mit `vagrant destroy` wird die virtuelle Maschine und alles, was auf ihr gespeichert ist vernichtet.
+Mit `vagrant suspend` kann man die virtuelle Maschine in der Ruhezustand versetzen (sie braucht dann keine Systemressourcen mehr.
+Mit `vagrant halt` kann man die virtuelle Maschine ausschalten.
+Mit `vagrant up` startet man die virtuelle Maschine, weckt sie aus dem Ruhezustand oder erzeugt sie, falls sie nicht (mehr) existiert.
+
+***Hinweis***: Wird die Maschine nicht in den Ruhezustand versetzt oder ausgeschalten (wenn sie nicht gebraucht wird), läuft sie weiter im Hintergrund und belegt Systemressourcen.

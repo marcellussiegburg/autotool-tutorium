@@ -47,7 +47,7 @@ autotool::sources::disable: true
 ```
 Abschließend
 ```bash
-vagrant up
+vagrant up --provider virtualbox --no-provision
 ```
 
 Test

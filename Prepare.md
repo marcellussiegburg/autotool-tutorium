@@ -78,10 +78,11 @@ Hinweis
 -------
 
 Nach dem Verwenden von `vagrant up` wird eine virtuelle Maschine erzeugt.
-Mit `vagrant ssh` loggt man sich per ssh auf der virtuellen Maschine ein.
-Mit `vagrant destroy` wird die virtuelle Maschine und alles, was auf ihr gespeichert ist vernichtet.
-Mit `vagrant suspend` kann man die virtuelle Maschine in der Ruhezustand versetzen (sie braucht dann keine Systemressourcen mehr.
-Mit `vagrant halt` kann man die virtuelle Maschine ausschalten.
-Mit `vagrant up` startet man die virtuelle Maschine, weckt sie aus dem Ruhezustand oder erzeugt sie, falls sie nicht (mehr) existiert.
+
+ * Mit `vagrant ssh` loggt man sich per ssh auf der virtuellen Maschine ein.
+ * Mit `vagrant destroy` wird die virtuelle Maschine und alles, was auf ihr gespeichert ist vernichtet.
+ * Mit `vagrant suspend` kann man die virtuelle Maschine in der Ruhezustand versetzen (sie braucht dann keine Systemressourcen mehr.
+ * Mit `vagrant halt` kann man die virtuelle Maschine ausschalten.
+ * Mit `vagrant up` startet man die virtuelle Maschine, weckt sie aus dem Ruhezustand oder erzeugt sie, falls sie nicht (mehr) existiert.
 
 ***Hinweis***: Wird die Maschine nicht in den Ruhezustand versetzt oder ausgeschalten (wenn sie nicht gebraucht wird), läuft sie weiter im Hintergrund und belegt Systemressourcen.

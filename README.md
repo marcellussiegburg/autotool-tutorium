@@ -33,6 +33,16 @@ Aufgaben
 
 vervollständige diesen Lückentext: <http://autolat.imn.htwk-leipzig.de/gitweb/?p=tool;a=blob;f=collection/src/Prime/Certificate.hs;h=c78d1628fd1e33ea78cbfe379b8414d29928c902;hb=for-ghc-7.8>
 
+### Front-End:
+
+ - Wandeln der Listendarstellung bei Vorlesungen zu tabellarischer Darstellung
+ - Sortierbarkeit der Tabellarischen Darstellung bei Vorlesungen ermöglichen (durch hinzufügen einer Route)
+
+Mögliche Lösung:
+ - siehe https://github.com/marcellussiegburg/autotool/tree/hal-10 z.Bsp. durch `git pull` im Verzeichnis `/home/vagrant/tool` in der VM
+ - Direktsprung zu den [Änderungen für Tabellendarstellung](https://github.com/marcellussiegburg/autotool/commit/2c791599eb2783ba91c94b71d5b0927ca7685160)
+ - Direktsprung zu den [Änderungen für Sortierung von Tabellen per Route](https://github.com/marcellussiegburg/autotool/commit/fd2764c48bcadab81610345b71d2de3f3cc78d53)
+
 Hintergrund
 -----------
 

@@ -37,3 +37,5 @@ Hintergrund
 -----------
 
 zur Benutzung von autotool: mehrere Beiträge in <http://www.imn.htwk-leipzig.de/~waldmann/talk/>
+
+Issues: <http://nfa.imn.htwk-leipzig.de/bugzilla/buglist.cgi?component=autotool&list_id=88&product=Auto*&resolution=--->

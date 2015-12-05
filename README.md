@@ -32,3 +32,8 @@ Aufgaben
 ### Back-End:
 
 vervollständige diesen Lückentext: <http://autolat.imn.htwk-leipzig.de/gitweb/?p=tool;a=blob;f=collection/src/Prime/Certificate.hs;h=c78d1628fd1e33ea78cbfe379b8414d29928c902;hb=for-ghc-7.8>
+
+Hintergrund
+-----------
+
+zur Benutzung von autotool: mehrere Beiträge in <http://www.imn.htwk-leipzig.de/~waldmann/talk/>

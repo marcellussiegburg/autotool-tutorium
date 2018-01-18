@@ -1,8 +1,8 @@
 Vorbereitungen
 ==============
 
-Bei Problemen bitte unter https://github.com/marcellussiegburg/autotool-tutorium/issues oder per E-Mail bei
-[Marcellus Siegburg](mailto:marcellus.siegburg@stud.htwk-leipzig.de) melden.
+Bei Problemen bitte unter https://github.com/marcellussiegburg/autotool-tutorium/issues ~~oder per E-Mail bei
+Marcellus Siegburg melden~~.
 
 Hintergrund
 -----------
@@ -20,7 +20,7 @@ Die Virtuelle Maschine beinhaltet nach fertiger Bereitstellung unter anderem:
 Installation
 ------------
 
-Um die Dauer der Vorbereitung zu verkürzen, wird zum HaL-10 ein bereits vorkompiliertes Image bereitgestellt.
+Um die Dauer der Vorbereitung zu verkürzen, wurde zum HaL-10 ein bereits vorkompiliertes Image bereitgestellt, das nicht mehr verfügbar ist.
 
 #### Benötigt werden:
  - `git` https://git-scm.com/downloads
@@ -31,14 +31,14 @@ Um die Dauer der Vorbereitung zu verkürzen, wird zum HaL-10 ein bereits vorkomp
 ```bash
 git clone https://github.com/marcellussiegburg/autobuildtool.git autotool
 cd autotool
-vagrant box add centos65x64 http://autotool-test.imn.htwk-leipzig.de/hal2015/autotool-yesod-x.y.box
+bash
 git submodule update --init
 ```
 
-***Achtung***: Bei http://autotool-test.imn.htwk-leipzig.de/hal2015/autotool-yesod-x.y.box,
+~~***Achtung***: Bei http://autotool-test.imn.htwk-leipzig.de/hal2015/autotool-yesod-x.y.box,
 ist `x.y` durch eine unter http://autotool-test.imn.htwk-leipzig.de/hal2015/ verfügbare Version zu erseten.
 `x.y` sollte man sich merken und kurz vor HaL-10 prüfen, ob eine neuere Version verfügbar ist
-und die Schritte ggf. erneut auszuführen.
+und die Schritte ggf. erneut auszuführen.~~
 
 In der Datei im Verzeichnis `config/config.yaml` sind die Parameter folgendermaßen zu ändern:
 ```yaml
